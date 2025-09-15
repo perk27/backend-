@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5001;
 
 //middleware
 app.use(cors({
-    origin: "http://localhost:5173",})
+    origin: "https://kakanote.pages.dev/",})
 );
 app.use(express.json());
 app.use(rateLimiter);
