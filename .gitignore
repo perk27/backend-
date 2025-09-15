@@ -1,32 +1,37 @@
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Node.js
+# Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+jspm_packages/
 
 # Build output
 dist/
 build/
 out/
-*.log
+.nyc_output/
 
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg
-*.egg-info/
-.eggs/
-.venv
-venv/
-ENV/
-*.sqlite3
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage
+coverage/
+*.lcov
 
 # IDEs & editors
 .vscode/
@@ -35,22 +40,9 @@ ENV/
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
-
-# Testing
-coverage/
-.pytest_cache/
-.junit/
-
-# Environment
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # Misc
+*.tgz
 *.bak
 *.tmp
-*.lock
-
-.env
+*.swp
