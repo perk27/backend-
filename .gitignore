@@ -23,7 +23,6 @@ __pycache__/
 *.egg
 *.egg-info/
 .eggs/
-.env
 .venv
 venv/
 ENV/
@@ -53,3 +52,5 @@ coverage/
 *.bak
 *.tmp
 *.lock
+
+.env
